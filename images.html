@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set viewport width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style_new.css" />
+    <title>Image search</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul id="nav_bar">
+            <li class="nav-links"><a href="index.html">Index</a></li>
+        </ul>  
+        </nav>  
+      </header>  
+    <!-- SEARCH CONTAINER START -->
+    <div class="search-container">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
+        <div class="logo-subtext">
+            <span>images</span>
+        </div>
+        <form action="http://images.google.com/images" method="get">
+            <div class="search-field">
+                <svg height="21" viewBox="0 0 21 21" width="31" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#808080" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="8.5" r="5" /><path d="m17.571 17.5-5.571-5.5" /></g></svg> 
+                <input type="text" name="q">
+            </div>
+            <!-- <input type="hidden" name="tbm" value="isch" /> -->
+            <!-- <input type="button" id="b" value="Search" /> -->
+            <input type="submit" id="b" value="Search" />
+        </form>
+    </div>
+    <!-- SEARCH CONTAINER END -->
+</body>
+</html>
+
+
+<div class="md-form mt-0">
+    <i class="material-icons mdc-button__icon">search</i>
+    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+  </div>
